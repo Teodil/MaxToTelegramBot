@@ -41,8 +41,8 @@ services:
     depends_on:
       - kafka
     environment:
-      TELEGRAM_TOKEN: "8321923033:AAHDcDfLSPmZWaUn7cPBZnJ-0CWOM0RcJSI"
-      CHAT_ID: "883460523"
+      TELEGRAM_TOKEN: "telegram_bot_token"
+      CHAT_ID: "telegram_chat_id"
       KAFKA_BOOTSTRAP_SERVERS: "kafka:9092"
       KAFKA_TOPIC: "test-topic"
       KAFKA_GROUP_ID: "telegram-bot-group"
